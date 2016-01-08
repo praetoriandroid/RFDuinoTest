@@ -2,14 +2,6 @@
 
 Compiles fine on Ubuntu 13.10. 
 
-Requirements, gradle:
-
-    sudo add-apt-repository ppa:cwchien/gradle
-    sudo apt-cache search gradle
-    sudo aptitude install gradle-1.10
-
-Do not download the 1.11 one, it fails on my system. Also do not use the default one from Canonical. I don't even know how old that one is.
-
 Update Android if necessary. I adjusted the gradle.build file here to use Android 4.4 (version 19) as is the target in the Manifest.
 
     cd /opt/android-sdk-linux/tools
